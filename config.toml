@@ -1,0 +1,4 @@
+baseURL = "https://1ag.in/"
+languageCode = "en-us"
+title = "1AG"
+theme = "ananke"
