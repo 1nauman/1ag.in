@@ -1,4 +1,8 @@
 baseURL = "https://1ag.in/"
 languageCode = "en-us"
 title = "1AG"
-theme = "ananke"
+theme = "aether"
+
+[params]
+brand = "1AG"
+description = "Ideas, thoughts, glitches and more..."
