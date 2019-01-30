@@ -4,6 +4,8 @@ date: 2018-09-10T15:50:08+05:30
 ---
 C# 7 introduces an improved syntax for joining declaration and usage of an `out` variable.
 
+<img src="images/discards.jpg"/>
+
 Consider the following example:
 ```csharp
 int integerVal;
