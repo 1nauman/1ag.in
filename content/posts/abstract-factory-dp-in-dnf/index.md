@@ -1,7 +1,9 @@
 ---
 title: "Abstract factory design pattern implementation in .NET framework"
 date: 2018-10-24T16:04:59+05:30
+featuredImage: "posts/abstract-factory-dp-in-dnf/images/abstract-factory.jpg"
 ---
+
 What is abstract factory pattern?
 
 <img src="images/abstract-factory.jpg"/>
@@ -16,6 +18,7 @@ See [Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern), [dofact
 
 Every concrete factory can build a Concrete product, in this case, `SqlClientFactory.CreateConnection()` will return an abstract `DbConnection` whose concrete type will be a `SqlConnection` instance.
 <img src="images/DbProviderFactory-AbstractFactory.png">
+
 ```csharp
 public abstract class DbProviderFactory
 {
@@ -28,7 +31,7 @@ public abstract class DbProviderFactory
     {
       return (DbCommandBuilder) null;
     }
-    
+
     public virtual DbConnection CreateConnection()
     {
       return (DbConnection) null;
@@ -58,7 +61,7 @@ public abstract class DbProviderFactory
     {
       return (DbDataSourceEnumerator) null;
     }
-    
+
     public virtual bool CanCreateDataSourceEnumerator
     {
       get
@@ -68,10 +71,12 @@ public abstract class DbProviderFactory
     }
 }
 ```
+
 Usage of `DbProviderFactory`:
+
 ```csharp
 // Source: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/obtaining-a-dbproviderfactory
-// Given a provider name and connection string, 
+// Given a provider name and connection string,
 // create the DbProviderFactory and DbConnection.
 // Returns a DbConnection on success; null on failure.
 static DbConnection CreateDbConnection(string providerName, string connectionString)
@@ -102,6 +107,7 @@ static DbConnection CreateDbConnection(string providerName, string connectionStr
     return connection;
 }
 ```
+
 See a [stackoverflow](https://stackoverflow.com/questions/1216626/how-can-i-use-ado-net-dbproviderfactory-with-mysql) discussion on using MySQL with this approach!
 
 Abstract factory class diagram
