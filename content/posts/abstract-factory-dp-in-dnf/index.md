@@ -6,8 +6,6 @@ featuredImage: "posts/abstract-factory-dp-in-dnf/images/abstract-factory.jpg"
 
 What is abstract factory pattern?
 
-<img src="images/abstract-factory.jpg"/>
-
 See [Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern), [dofactory](https://www.dofactory.com/net/abstract-factory-design-pattern), [Sourcemaking](https://sourcemaking.com/design_patterns/abstract_factory), [oodesign](https://www.oodesign.com/abstract-factory-pattern.html), etc..
 
 .NET framework uses/implements many design patterns, abstract factory is one such.

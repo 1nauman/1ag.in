@@ -6,8 +6,6 @@ featuredImage: "posts/what-is-a-proxy-server/images/proxy.png"
 
 Proxy: The authority to represent someone else, especially in voting. A person authorized to act on behalf of another.
 
-<img src="images/proxy.png">
-
 A proxy server in a computer network, is setup as a gateway to the internet (or any other servers) for network clients. In such a setup, the proxy server acts as an intermediary between local network clients and internet.
 A client connects to the proxy server with a request to resource on internet and proxy server evaluates the request and replies from its cache (if caching is the purpose for implementing a proxy) or forwards to the actual server.
 

@@ -6,8 +6,6 @@ featuredImage: "posts/c-sharp-out-vars-discards/images/discards.jpg"
 
 C# 7 introduces an improved syntax for joining declaration and usage of an `out` variable.
 
-<img src="images/discards.jpg"/>
-
 Consider the following example:
 
 ```csharp

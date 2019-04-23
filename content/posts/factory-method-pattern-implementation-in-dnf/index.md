@@ -5,7 +5,7 @@ featuredImage: "posts/factory-method-pattern-implementation-in-dnf/images/factor
 ---
 
 Factory method pattern also called as Virtual Constructor (less known), defines an interface for creating objects, but defer the instantiation to sub-classes.
-<img src="images/factory.gif"/>
+
 Read more about the pattern: [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern), [dofactory](https://www.dofactory.com/net/factory-method-design-pattern), [Sourcemaking](https://sourcemaking.com/design_patterns/factory_method), [oodesign](https://www.oodesign.com/factory-method-pattern.html), etc.
 
 I can safely state, that: A well designed library cannot exist without implementing factory method pattern.
