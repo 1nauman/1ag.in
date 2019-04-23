@@ -2,6 +2,7 @@ baseURL = "https://1ag.in/"
 languageCode = "en-us"
 title = "1AG"
 theme = "aether"
+disqusShortname = "1ag"
 
 [params]
 brand = "1AG"
