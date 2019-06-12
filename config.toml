@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "1AG"
 theme = "aether"
 disqusShortname = "1ag"
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
 brand = "1AG"
