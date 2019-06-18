@@ -7,5 +7,5 @@ displayInList: false
 ---
 
 Numan Mohammed is the name.
-<img src="images/me.jpg">
+<!-- <img src="images/me.jpg"> -->
 More to come...
